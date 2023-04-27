@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+</head>
+<body>
+    <h1>MP3 Player</h1>
+    <form action="your_html_file.html" method="GET">
+        <div>
+        <label for="songs">Song:</label>
+        <select id="song" name="song" size="1">
+            <option value="song1">It's my life</option>
+            <option value="song2">Hotel California</option>
+            <option value="song3">Nothing's Gonna Change My Love for You</option>
+            <option value="song4">Isang Linggong Pag-ibig</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="Volume">Volume:</label>  
+            <input type="range" id="Vol" name="Vol"  min="10" max="80">  
+        </div>
+        <button type="submit">Play</button>
+        <button type="pause">Pause</button>
+        <button type="reset">Stop</button>
+
+
+    </form>
+</body>
+</html>
